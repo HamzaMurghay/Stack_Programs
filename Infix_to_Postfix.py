@@ -102,4 +102,14 @@ print(f"\nThe Postfix Expression is: {postfix}")
 # precedence, that's why there's that long if statement at start. If you know a better and simpler way to do that
 # hit me up
 
-# Good test example: a+b-c*(d-(e/f))+g
+"""Test Examples:
+   
+   1) a+b
+   2) (a+b)*c
+   3) a+b*c-d/e
+   4) (a+b-c)*d-(e+f)
+   5) A-(B/C+(D%E*F)/G)*H
+   6) a^b*(c-d)/(p-r)
+   7) a+b-c*(d-(e/f))+g
+   8) 2*7-18+6
+   9) 6-(2+3)*3+8/2+3"""
